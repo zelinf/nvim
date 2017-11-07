@@ -5,6 +5,7 @@ call plug#begin()
   Plug 'neovimhaskell/haskell-vim'
   Plug 'alx741/vim-stylishask'
   Plug 'scrooloose/nerdtree'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 autocmd vimenter * NERDTree

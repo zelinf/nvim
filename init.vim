@@ -10,3 +10,5 @@ call plug#end()
 
 autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
+
+:tnoremap <Esc> <C-\><C-n>

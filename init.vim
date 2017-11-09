@@ -8,7 +8,6 @@ call plug#begin()
   Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
+"nerdtree
 autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
-
-:tnoremap <Esc> <C-\><C-n>

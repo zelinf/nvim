@@ -1,5 +1,7 @@
 set nu
 set noautoindent
+set cindent shiftwidth=2
+set expandtab
 
 call plug#begin()
   Plug 'neovimhaskell/haskell-vim'
